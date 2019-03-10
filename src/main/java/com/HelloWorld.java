@@ -7,4 +7,8 @@ public class HelloWorld {
     public static void main(String[] args) {
         get("/hello", (req, res) -> "Hello World");
     }
+
+    public static int getSum(int x, int y) {
+    	return x + y;
+    }
 }
