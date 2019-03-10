@@ -9,7 +9,7 @@ public class SampleUnitTest {
 	//abcd
 	@Test
 	public void sampleJunitTest() {
-		Assert.assertEquals(3, HelloWorld.getSum(1,3));
+		Assert.assertEquals(3, HelloWorld.getSum(1,2));
 	}
 
 }
